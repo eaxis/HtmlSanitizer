@@ -1,5 +1,5 @@
 {
-    "name": "bolt/htmlsanitizer",
+    "name": "eaxis/htmlsanitizer",
     "description": "An extension to sanitize your Bolt articles.",
     "type": "bolt-extension",
     "keywords": [
