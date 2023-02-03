@@ -20,7 +20,7 @@ class HtmlSanitizerExtension extends SimpleExtension
         $allowedMarkup = '<br><p><h1><h2><h3><h4><a><strong><ul><i><b><u><li><div><img>';
         $string = \strip_tags($string, $allowedMarkup);
 
-        $string = preg_replace('/(<[^>]+) style=".*?"/i', '$1', $string);
+        $string = preg_replace('/(<(?!img)[^>]+) style=".*?"/i', '$1', $string);
 
         return $string;
     }
