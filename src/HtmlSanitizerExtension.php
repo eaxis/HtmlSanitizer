@@ -1,10 +1,10 @@
 <?php
 
-namespace Bolt\Extension\eaxis\BoltHtmlSanitizer;
+namespace Bolt\Extension\eaxis\HtmlSanitizer;
 
 use Bolt\Extension\SimpleExtension;
 
-class BoltHtmlSanitizerExtension extends SimpleExtension
+class HtmlSanitizerExtension extends SimpleExtension
 {
     protected function registerTwigFilters()
     {

@@ -1,11 +1,11 @@
 {
-    "name": "eaxis/bolthtmlsanitizer",
-    "description": "A Bolt extension to sanitize your articles",
+    "name": "bolt/htmlsanitizer",
+    "description": "An extension to sanitize your Bolt articles.",
     "type": "bolt-extension",
     "keywords": [
-        "twig filter",
-        "html",
-        "sanitizer"
+        "bolt",
+        "articles",
+        "sanitize"
     ],
     "require": {
         "bolt/bolt": "^3.0"
@@ -16,11 +16,12 @@
             "name": "eaxis"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Bolt\\Extension\\eaxis\\BoltHtmlSanitizer\\": "src"
+            "Bolt\\Extension\\eaxis\\HtmlSanitizer\\": "src"
         }
+    },
+    "extra": {
+        "bolt-class": "Bolt\\Extension\\eaxis\\HtmlSanitizer\\HtmlSanitizerExtension"
     }
 }

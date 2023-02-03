@@ -1,4 +1,4 @@
-BoltHtmlSanitizer
+HtmlSanitizer
 =======
 
-This extension could be used to sanitize html content in your articles
+An extension to sanitize your Bolt articles.
